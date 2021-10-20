@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      max-width: 600px;
+    }
+    header{
+        max-width: 600px;
+    }
+}
+
+
+
+#text-1{
+font-family:'Teko', sans-serif;
+font-size: 8rem;
+text-align: center;
+z-index:2;
+margin-top: -630px;
+
+}
+
+div img{
+    width: 100%;
+}
