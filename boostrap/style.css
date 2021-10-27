@@ -1,14 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 980px) {
     body {
-      max-width: 600px;
+      min-width: 600px;
     }
     header{
-        max-width: 600px;
+        min-width: 600px;
+    }
+
+    #text-1{
+        min-width: 600px;
+    }
+
+    #img-1{
+        min-width: 100%;
     }
 }
 
@@ -23,6 +32,16 @@ margin-top: -630px;
 
 }
 
-div img{
+header img{
     width: 100%;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+
+.container{
+    height: 1100px;
 }
