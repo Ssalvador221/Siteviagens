@@ -45,12 +45,9 @@
       </nav>
 
       <header>
-        <h1 id="top-1"> Encontre sua próxima viagem</h1>
-        <p id="under-1">Os melhores preços e os melhores Lugares para viajar você só Encontra aqui. </p>
+        <h1 id="top-1"> Companhias Batis</h1>
         <img src="/imagens/avai.jpg" id="img-1" width="100%" height="600px">
       </header>
-
-      <div class="obj-1"></div>
 
       <div class="container">
         <h2 id="top-2">Faça aqui seu registro</h2>
@@ -73,10 +70,65 @@
           <div class="form-floating">
             <textarea class="form-control" placeholder="Rg Number" id="floatingTextarea"></textarea>
             <label for="floatingTextarea">Seu endereço</label>
-          </div> 
+
+            <form action="index.html" onclick="myFunction()" >
+              <button type="button" class="btn btn-outline-primary concluido">Concluir</button>
+            </form>
+            </div> 
         </div>
       </div>
         
+      <div class="container-1"></div>
+      <h3 id="top-3">Passagens aéreas</h3>
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="going" placeholder="Seu Distino">
+          <label for="floatingInput">Você esta em</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="backing" placeholder="ultimo nome">
+          <label for="floatingPassword">Esta indo para </label>
+          <div class="form-floating">
+
+          <div class="form-floating">
+            <input type="datetime-local" class="form-control" id="indo" placeholder="RG">
+            <label for="floatingTextarea">Datas / Ida</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="datetime-local" class="form-control" id="voltando" placeholder="RG">
+            <label for="floatingTextarea">Datas / Volta</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="number" class="form-control" id="numpes" placeholder="pessoas">
+            <label for="floatingTextarea">Numero De Pessoas</label>
+
+            <form action="index.html" onclick="showAlert()">
+              <button type="button"  id="boto"  class="btn btn-outline-primary concluido">Concluir</button>
+            </form>
+            </div> 
+        </div>
+      </div>
+
+      <footer>
+      
+        <ul> Este é meu Site, Obrigado pela paciência</ul>
+      </footer>
+
+
+      <script>
+        function myFunction() {
+        alert("Cadastro Feito Com Sucesso!!");
+      }
+
+    function showAlert() {
+    var myText = "Passagem Marcada com Sucesso!";
+    alert (myText);
+    }
+
+    </script>
     
 
 </body>
