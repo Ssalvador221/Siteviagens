@@ -144,7 +144,9 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2rem;
-    margin-top: 12px;
-    margin-left: 490px;
-    width: 880px;
+}
+
+#cor{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
 }
