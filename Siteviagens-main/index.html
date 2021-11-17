@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@500;600&display=swap" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+    <title>Companhias Batis</title>
+</head>
+
+
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Companhias Batis</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/páginas/sobre.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <h1 id="top-1"> Companhias Batis</h1>
+        <img src="/imagens/avai.jpg" id="img-1" width="100%" height="600px">
+      </header>
+
+      <div class="container">
+        <h2 id="top-2">Faça aqui seu registro</h2>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="floatingname" placeholder="primeiro">
+          <label for="floatingInput">Seu primeiro Nome</label>
+        </div>
+        <div class="form-floating">
+          <input type="text" class="form-control" id="floatinglast" placeholder="ultimo nome">
+          <label for="floatingPassword">Seu último Nome</label>
+          <div class="form-floating">
+            <input type="number" class="form-control" id="cpf" placeholder="Cpf">
+            <label for="floatingTextarea">Cpf</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" class="form-control" id="rg" placeholder="RG">
+            <label for="floatingTextarea">Rg</label>
+          </div>
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Rg Number" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Seu endereço</label>
+
+            <form action="index.html" onclick="myFunction()" >
+              <button type="button" class="btn btn-outline-primary concluido">Concluir</button>
+            </form>
+            </div> 
+        </div>
+      </div>
+        
+      <div class="container-1"></div>
+      <h3 id="top-3">Passagens aéreas</h3>
+
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="going" placeholder="Seu Distino">
+          <label for="floatingInput">Você esta em</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="text" class="form-control" id="backing" placeholder="ultimo nome">
+          <label for="floatingPassword">Esta indo para </label>
+          <div class="form-floating">
+
+          <div class="form-floating">
+            <input type="datetime-local" class="form-control" id="indo" placeholder="RG">
+            <label for="floatingTextarea">Datas / Ida</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="datetime-local" class="form-control" id="voltando" placeholder="RG">
+            <label for="floatingTextarea">Datas / Volta</label>
+          </div>
+
+          <div class="form-floating">
+            <input type="number" class="form-control" id="numpes" placeholder="pessoas">
+            <label for="floatingTextarea">Numero De Pessoas</label>
+
+            <form action="index.html" onclick="showAlert()">
+              <button type="button"  id="boto"  class="btn btn-outline-primary concluido">Concluir</button>
+            </form>
+            </div> 
+        </div>
+      </div>
+
+      <footer>
+      
+        <ul> Este é meu Site, Obrigado pela paciência</ul>
+      </footer>
+
+
+      <script>
+        function myFunction() {
+        alert("Cadastro Feito Com Sucesso!!");
+      }
+
+    function showAlert() {
+    var myText = "Passagem Marcada com Sucesso!";
+    alert (myText);
+    }
+
+    </script>
+    
+
+</body>
+</html>
